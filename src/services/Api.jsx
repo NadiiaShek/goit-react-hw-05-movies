@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const BASE_URL = 'https://api.themoviedb.org/';
 const KEY = 'f7e01896e2d5fbc24092901b8d13f2b9';
 
+
 async function fetchMovies(url = '', config = {}) {
   const response = await axios.get(url, config);
   return response.data;
