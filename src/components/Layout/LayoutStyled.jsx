@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const Link = styled(NavLink)`
   padding: 10px 20px;
-  border-radius: 0 25px 25px 0;
+  border-radius: 0np 25px 25px 0;
   text-decoration: none;
   color: ${props => props.theme.colors.active};
   border: 1px solid ${props => props.theme.colors.active};

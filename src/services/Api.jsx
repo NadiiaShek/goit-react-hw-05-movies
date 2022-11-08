@@ -2,7 +2,7 @@ import axios from 'axios';
 import PropTypes from 'prop-types';
 
 const BASE_URL = 'https://api.themoviedb.org/';
-const KEY = 'f7e01896e2d5fbc24092901b8d13f2b9';
+const KEY = '5f2a66e63fa9a8139a0b7e8b9aba27ca';
 
 
 async function fetchMovies(url = '', config = {}) {
