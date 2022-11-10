@@ -13,7 +13,7 @@ const styles = {
 export const Loader = () => {
   return (
     <div style={styles.spinner}>
-      <ThreeDots color={'#58197c'} width="100" ariaLabel="loading" />
+      <ThreeDots color={'#0F4C75'} width="100" ariaLabel="loading" />
     </div>
   );
 };

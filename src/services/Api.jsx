@@ -1,8 +1,9 @@
 import axios from 'axios';
 import PropTypes from 'prop-types';
 
-const BASE_URL = 'https://api.themoviedb.org/';
-const KEY = '5f2a66e63fa9a8139a0b7e8b9aba27ca';
+const BASE_URL = 'https://api.themoviedb.org/3/';
+const KEY = '592f788186491be4ee714869feb8dcec';
+
 
 
 async function fetchMovies(url = '', config = {}) {
